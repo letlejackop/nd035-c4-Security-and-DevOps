@@ -1,0 +1,28 @@
+2023-10-30 12:55:12.884  INFO 35176 --- [main] c.example.demo.SareetaApplicationTests   : Starting SareetaApplicationTests on LAPTOP-6CKEEKI0 with PID 35176 (started by letlejackop in D:\Projects\nd035-c4-Security-and-DevOps\starter_code)
+2023-10-30 12:55:12.887  INFO 35176 --- [main] c.example.demo.SareetaApplicationTests   : No active profile set, falling back to default profiles: default
+2023-10-30 12:55:13.310  INFO 35176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-30 12:55:13.358  INFO 35176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 4 JPA repository interfaces.
+2023-10-30 12:55:14.071  INFO 35176 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-30 12:55:14.118  INFO 35176 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-10-30 12:55:14.241  INFO 35176 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-10-30 12:55:14.378  INFO 35176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-30 12:55:14.519  INFO 35176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-30 12:55:14.535  INFO 35176 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-30 12:55:15.262  INFO 35176 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-30 12:55:15.267  INFO 35176 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 12:55:15.731  WARN 35176 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-30 12:55:16.276  INFO 35176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c5044fa, org.springframework.security.web.context.SecurityContextPersistenceFilter@46fdfaeb, org.springframework.security.web.header.HeaderWriterFilter@1c5cd2ea, org.springframework.web.filter.CorsFilter@3db5195, org.springframework.security.web.authentication.logout.LogoutFilter@372841d2, com.example.demo.security.JWTAuthenticationFilter@b386a17, com.example.demo.security.JWTAuthenticationVerficationFilter@1cda75be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eebd983, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16890f00, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2213854b, org.springframework.security.web.session.SessionManagementFilter@7fb5368e, org.springframework.security.web.access.ExceptionTranslationFilter@1f3aa970, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21046afa]
+2023-10-30 12:55:16.442  INFO 35176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-30 12:55:16.628  INFO 35176 --- [main] c.example.demo.SareetaApplicationTests   : Started SareetaApplicationTests in 4.062 seconds (JVM running for 5.068)
+2023-10-30 12:55:16.930 ERROR 35176 --- [main] c.e.demo.controllers.OrderController     : unable to create order for faisal
+2023-10-30 12:55:16.980  INFO 35176 --- [main] c.e.demo.controllers.OrderController     : order created for user faisal 
+2023-10-30 12:55:16.986 ERROR 35176 --- [main] c.e.demo.controllers.OrderController     : unable to create order for faisal
+2023-10-30 12:55:16.988  INFO 35176 --- [main] c.e.demo.controllers.OrderController     : order created for user faisal 
+2023-10-30 12:55:16.990  INFO 35176 --- [main] c.e.demo.controllers.OrderController     : order created for user faisal 
+2023-10-30 12:55:17.011  INFO 35176 --- [main] c.e.demo.controllers.UserController      : user created faisal
+2023-10-30 12:55:17.024  INFO 35176 --- [main] c.e.demo.controllers.UserController      : user created faisal
+2023-10-30 12:55:17.031  INFO 35176 --- [main] c.e.demo.controllers.UserController      : user created faisal
+2023-10-30 12:55:17.038  INFO 35176 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-30 12:55:17.042  INFO 35176 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-30 12:55:17.046  INFO 35176 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-30 12:55:17.052  INFO 35176 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
